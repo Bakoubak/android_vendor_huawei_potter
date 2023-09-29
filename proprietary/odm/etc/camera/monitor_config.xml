@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="GB2312"?>
 <MaintainConfig  Version="MaintainConfig_V1.2" Time="20170801">
     <TraceConfig>
         <Enable>1</Enable>
@@ -15,7 +15,7 @@
     </MonitorConfig>
     <BigDataConfig Enable="1">
         <Monitor Type="PP_foreground" BigData="1"/> <!-- "PP_foreground" means CAMERA_FRONT -->
-        <Monitor Type="PP_background" BigData="0"/> <!-- "PP_background" means CAMERA_BACK -->
+        <Monitor Type="PP_background" BigData="1"/> <!-- "PP_background" means CAMERA_BACK -->
     </BigDataConfig>
     <WatchDogConfig>
         <LoopPeriodInMs>500</LoopPeriodInMs>
@@ -26,11 +26,11 @@
             <Item Name="PP_sos" Enable="1" DefaultWarnThreshold="400" DefaultErrorThreshold="1000">
             </Item>
             <Item Name="PP_process" Enable="1" DefaultWarnThreshold="1500" DefaultErrorThreshold="3000">
-                <TimeOutThreshold AlgoName="digitalzoom" Warn="2000" Error="6000"/>
-                <TimeOutThreshold AlgoName="dualdepth" Warn="2000" Error="6000"/>
-                <TimeOutThreshold AlgoName="davincidsp" Warn="2000" Error="6000"/>
-                <TimeOutThreshold AlgoName="opticalzoomdsp" Warn="3500" Error="6000"/>
-                <TimeOutThreshold AlgoName="HwBeautyPpAlgo" Warn="3500" Error="6000"/>
+                <TimeOutThreshold AlgoName="digitalzoom" Warn="2000" Error="4500"/>
+                <TimeOutThreshold AlgoName="dualdepth" Warn="2000" Error="4500"/>
+                <TimeOutThreshold AlgoName="davincidsp" Warn="2000" Error="4500"/>
+                <TimeOutThreshold AlgoName="opticalzoomdsp" Warn="3500" Error="4500"/>
+                <TimeOutThreshold AlgoName="HwBeautyPpAlgo" Warn="3500" Error="4500"/>
             </Item>
             <Item Name="PP_getFrame" Enable="1" DefaultWarnThreshold="100" DefaultErrorThreshold="400">
             </Item>

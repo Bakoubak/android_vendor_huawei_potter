@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="GB2312"?>
 <MemPoolConfig  Version="Mempoolcfg_V2.0" Time="20160326">
     <Gloable>
         <Enable>1</Enable>
         <RamRatio>0.3</RamRatio>
-        <upperLimitInMB>400</upperLimitInMB>
+        <upperLimitInMB>150</upperLimitInMB>
+        <upperLimitInMBup4GB>400</upperLimitInMBup4GB>
     </Gloable>
     <Strategy Enable="1">
         <!-- reuse_percent-->
@@ -39,24 +40,29 @@
         </Algo>
         <Algo name="dualdepth">
             <AlgoBuffer multiple="4.0">1</AlgoBuffer>
-            <AlgoBuffer multiple="4.2">1</AlgoBuffer>
-            <AlgoBuffer multiple="2.1">1</AlgoBuffer>
-            <AlgoBuffer multiple="1.9">1</AlgoBuffer>
+            <AlgoBuffer multiple="3.11">1</AlgoBuffer>
+            <AlgoBuffer multiple="2.46">1</AlgoBuffer>
+            <AlgoBuffer multiple="1.93">1</AlgoBuffer>
+            <AlgoBuffer multiple="1.3">2</AlgoBuffer>
+            <AlgoBuffer multiple="0.2581">4</AlgoBuffer>
+            <AlgoBuffer multiple="0.1875">1</AlgoBuffer>
+            <AlgoBuffer multiple="0.1561">1</AlgoBuffer>
         </Algo>
         <Algo name="edof">
-            <AlgoBuffer multiple="1.5">1</AlgoBuffer>
-            <AlgoBuffer multiple="5.0">1</AlgoBuffer>
-            <AlgoBuffer multiple="4.1">1</AlgoBuffer>
+            <AlgoBuffer multiple="0.0">1</AlgoBuffer>
         </Algo>
         <Algo name="refocus">
-            <AlgoBuffer multiple="3.0">1</AlgoBuffer>
-            <AlgoBuffer multiple="1.4">1</AlgoBuffer>
-            <AlgoBuffer multiple="6.2">1</AlgoBuffer>
-            <AlgoBuffer multiple="3.5">1</AlgoBuffer>
+            <AlgoBuffer multiple="4.361">1</AlgoBuffer>
+            <AlgoBuffer multiple="3.5386">1</AlgoBuffer>
+            <AlgoBuffer multiple="2.0625">1</AlgoBuffer>
+            <AlgoBuffer multiple="1.625">1</AlgoBuffer>
+            <AlgoBuffer multiple="1.5">1</AlgoBuffer>
+            <AlgoBuffer multiple="0.91">2</AlgoBuffer>
         </Algo>
         <Algo name="multidenoisedsp">
         </Algo>
         <Algo name="HwBeautyPpAlgo">
+            <AlgoBuffer multiple="0.0">1</AlgoBuffer>
         </Algo>
         <Algo name="convertfromstride">
             <AlgoBuffer multiple="0.0">1</AlgoBuffer>
@@ -65,7 +71,10 @@
             <AlgoBuffer multiple="0.0">1</AlgoBuffer>
         </Algo>
         <Algo name="davinci">
-            <AlgoBuffer multiple="6.5">1</AlgoBuffer>
+            <AlgoBuffer multiple="0.0">1</AlgoBuffer>
+        </Algo>
+        <Algo name="bgAdj">
+            <AlgoBuffer multiple="0.0">1</AlgoBuffer>
         </Algo>
     </PreAlloc>
     <Monitor Enable="1">
