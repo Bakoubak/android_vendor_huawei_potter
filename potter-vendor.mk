@@ -34,63 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/potter/proprietary/odm/etc/camera/bshutter/imx258/algo.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/bshutter/imx258/algo.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/bshutter/imx576/info.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/bshutter/imx576/info.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/bshutter/ov13855/algo.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/bshutter/ov13855/algo.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/bshutter/ov16b10/info.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/bshutter/ov16b10/info.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/device.config:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/device.config \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/hi1333/raw_dpf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/hi1333/raw_dpf.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/hi1333/sharpen_arsr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/hi1333/sharpen_arsr.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/hi1333/switches.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/hi1333/switches.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/hi1333/yuv_dnr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/hi1333/yuv_dnr.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/hi846_front/raw_dpf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/hi846_front/raw_dpf.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/hi846_front/sharpen_arsr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/hi846_front/sharpen_arsr.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/hi846_front/switches.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/hi846_front/switches.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/hi846_front/yuv_dnr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/hi846_front/yuv_dnr.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/imx258/raw_dpf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/imx258/raw_dpf.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/imx258/sharpen_arsr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/imx258/sharpen_arsr.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/imx258/switches.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/imx258/switches.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/imx258/yuv_dnr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/imx258/yuv_dnr.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/imx371_front/raw_dpf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/imx371_front/raw_dpf.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/imx371_front/switches.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/imx371_front/switches.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/imx371_front/yuv_dnr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/imx371_front/yuv_dnr.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/imx576/raw_dpf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/imx576/raw_dpf.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/imx576/sharpen_arsr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/imx576/sharpen_arsr.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/imx576/switches.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/imx576/switches.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/imx576/yuv_dnr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/imx576/yuv_dnr.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/imx576_front/raw_dpf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/imx576_front/raw_dpf.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/imx576_front/sharpen_arsr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/imx576_front/sharpen_arsr.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/imx576_front/switches.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/imx576_front/switches.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/imx576_front/yuv_dnr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/imx576_front/yuv_dnr.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/imx582/raw_dpf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/imx582/raw_dpf.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/imx582/sharpen_arsr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/imx582/sharpen_arsr.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/imx582/switches.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/imx582/switches.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/imx582/yuv_dnr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/imx582/yuv_dnr.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/imx616_front/raw_dpf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/imx616_front/raw_dpf.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/imx616_front/sharpen_arsr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/imx616_front/sharpen_arsr.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/imx616_front/switches.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/imx616_front/switches.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/imx616_front/yuv_dnr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/imx616_front/yuv_dnr.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/ov13855/raw_dpf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/ov13855/raw_dpf.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/ov13855/sharpen_arsr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/ov13855/sharpen_arsr.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/ov13855/switches.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/ov13855/switches.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/ov13855/yuv_dnr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/ov13855/yuv_dnr.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/ov16885_front/raw_dpf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/ov16885_front/raw_dpf.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/ov16885_front/sharpen_arsr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/ov16885_front/sharpen_arsr.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/ov16885_front/switches.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/ov16885_front/switches.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/ov16885_front/yuv_dnr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/ov16885_front/yuv_dnr.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/s5k3l6/raw_dpf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/s5k3l6/raw_dpf.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/s5k3l6/sharpen_arsr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/s5k3l6/sharpen_arsr.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/s5k3l6/switches.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/s5k3l6/switches.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/s5k3l6/yuv_dnr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/s5k3l6/yuv_dnr.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/s5k3p8_front/raw_dpf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/s5k3p8_front/raw_dpf.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/s5k3p8_front/sharpen_arsr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/s5k3p8_front/sharpen_arsr.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/s5k3p8_front/switches.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/s5k3p8_front/switches.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/s5k3p8_front/yuv_dnr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/s5k3p8_front/yuv_dnr.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/s5k4h7_front/raw_dpf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/s5k4h7_front/raw_dpf.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/s5k4h7_front/sharpen_arsr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/s5k4h7_front/sharpen_arsr.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/s5k4h7_front/switches.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/s5k4h7_front/switches.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/s5k4h7_front/yuv_dnr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/s5k4h7_front/yuv_dnr.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/s5kgd1sp_front/raw_dpf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/s5kgd1sp_front/raw_dpf.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/s5kgd1sp_front/sharpen_arsr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/s5kgd1sp_front/sharpen_arsr.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/s5kgd1sp_front/switches.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/s5kgd1sp_front/switches.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/davinci/s5kgd1sp_front/yuv_dnr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/davinci/s5kgd1sp_front/yuv_dnr.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/digitalzoom/device.config:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/device.config \
     vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/digitalzoom/hi1333/raw_dpf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/hi1333/raw_dpf.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/configeffect/digitalzoom/hi1333/sharpen_arsr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/hi1333/sharpen_arsr.xml \
@@ -239,7 +182,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/hi1333/oz/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/hi1333/oz/hwbeauty_params.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/hi1333/rh/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/hi1333/rh/hwbeauty_params.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/hi1333/zdfz/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/hi1333/zdfz/hwbeauty_params.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/hi1333/zg/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/hi1333/zg/hwbeauty_params.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/hi846_front/bm/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/hi846_front/bm/hwbeauty_params.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/hi846_front/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/hi846_front/hwbeauty_params.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/hi846_front/lm/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/hi846_front/lm/hwbeauty_params.xml \
@@ -255,7 +197,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/imx258/oz/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/imx258/oz/hwbeauty_params.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/imx258/rh/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/imx258/rh/hwbeauty_params.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/imx258/zdfz/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/imx258/zdfz/hwbeauty_params.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/imx258/zg/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/imx258/zg/hwbeauty_params.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/imx371_front/bm/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/imx371_front/bm/hwbeauty_params.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/imx371_front/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/imx371_front/hwbeauty_params.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/imx371_front/lm/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/imx371_front/lm/hwbeauty_params.xml \
@@ -287,7 +228,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/imx582/oz/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/imx582/oz/hwbeauty_params.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/imx582/rh/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/imx582/rh/hwbeauty_params.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/imx582/zdfz/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/imx582/zdfz/hwbeauty_params.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/imx582/zg/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/imx582/zg/hwbeauty_params.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/imx616_front/bm/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/imx616_front/bm/hwbeauty_params.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/imx616_front/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/imx616_front/hwbeauty_params.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/imx616_front/lm/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/imx616_front/lm/hwbeauty_params.xml \
@@ -303,7 +243,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/ov13855/oz/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/ov13855/oz/hwbeauty_params.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/ov13855/rh/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/ov13855/rh/hwbeauty_params.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/ov13855/zdfz/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/ov13855/zdfz/hwbeauty_params.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/ov13855/zg/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/ov13855/zg/hwbeauty_params.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/ov16885_front/bm/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/ov16885_front/bm/hwbeauty_params.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/ov16885_front/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/ov16885_front/hwbeauty_params.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/ov16885_front/lm/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/ov16885_front/lm/hwbeauty_params.xml \
@@ -319,7 +258,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/s5k3l6/oz/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/s5k3l6/oz/hwbeauty_params.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/s5k3l6/rh/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/s5k3l6/rh/hwbeauty_params.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/s5k3l6/zdfz/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/s5k3l6/zdfz/hwbeauty_params.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/s5k3l6/zg/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/s5k3l6/zg/hwbeauty_params.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/s5k3p8_front/bm/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/s5k3p8_front/bm/hwbeauty_params.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/s5k3p8_front/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/s5k3p8_front/hwbeauty_params.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/s5k3p8_front/lm/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/s5k3p8_front/lm/hwbeauty_params.xml \
@@ -344,25 +282,26 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/s5kgd1sp_front/rh/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/s5kgd1sp_front/rh/hwbeauty_params.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/s5kgd1sp_front/zdfz/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/s5kgd1sp_front/zdfz/hwbeauty_params.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwbeauty/s5kgd1sp_front/zg/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/s5kgd1sp_front/zg/hwbeauty_params.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/hwldc/default/hwldc_config.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwldc/default/hwldc_config.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/hwldc/device.config:$(TARGET_COPY_OUT_ODM)/etc/camera/hwldc/device.config \
-    vendor/huawei/potter/proprietary/odm/etc/camera/hwldc/imx371/hwldc_config.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwldc/imx371/hwldc_config.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/hwldc/imx576/hwldc_config.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwldc/imx576/hwldc_config.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/hwldc/ov16885/hwldc_config.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwldc/ov16885/hwldc_config.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/hwldc/s5k3p8/hwldc_config.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwldc/s5k3p8/hwldc_config.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/hwscope/device.config:$(TARGET_COPY_OUT_ODM)/etc/camera/hwscope/device.config \
-    vendor/huawei/potter/proprietary/odm/etc/camera/hwscope/imx498/hwsz.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwscope/imx498/hwsz.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/hwscope/imx498/kernel:$(TARGET_COPY_OUT_ODM)/etc/camera/hwscope/imx498/kernel \
-    vendor/huawei/potter/proprietary/odm/etc/camera/hwscope/ov16b10/hwsz.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwscope/ov16b10/hwsz.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/hwscope/ov16b10/kernel:$(TARGET_COPY_OUT_ODM)/etc/camera/hwscope/ov16b10/kernel \
+    vendor/huawei/potter/proprietary/odm/etc/camera/hwldc/hi846_front/hwldc_config.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwldc/hi846_front/hwldc_config.xml \
+    vendor/huawei/potter/proprietary/odm/etc/camera/hwldc/imx371_front/hwldc_config.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwldc/imx371_front/hwldc_config.xml \
+    vendor/huawei/potter/proprietary/odm/etc/camera/hwldc/imx576_front/hwldc_config.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwldc/imx576_front/hwldc_config.xml \
+    vendor/huawei/potter/proprietary/odm/etc/camera/hwldc/imx616_front/hwldc_config.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwldc/imx616_front/hwldc_config.xml \
+    vendor/huawei/potter/proprietary/odm/etc/camera/hwldc/ov16885_front/hwldc_config.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwldc/ov16885_front/hwldc_config.xml \
+    vendor/huawei/potter/proprietary/odm/etc/camera/hwldc/s5k3p8_front/hwldc_config.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwldc/s5k3p8_front/hwldc_config.xml \
+    vendor/huawei/potter/proprietary/odm/etc/camera/hwldc/s5k4h7_front/hwldc_config.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwldc/s5k4h7_front/hwldc_config.xml \
+    vendor/huawei/potter/proprietary/odm/etc/camera/hwldc/s5kgd1sp_front/hwldc_config.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwldc/s5kgd1sp_front/hwldc_config.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/ippalgoconfig.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/ippalgoconfig.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/ispenhnc/ispenhncalgoconfig.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/ispenhnc/ispenhncalgoconfig.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/mempoolcfg.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/mempoolcfg.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/mmi7cm/device.config:$(TARGET_COPY_OUT_ODM)/etc/camera/mmi7cm/device.config \
-    vendor/huawei/potter/proprietary/odm/etc/camera/mmi7cm/imx498/mmi7cmConfig.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/mmi7cm/imx498/mmi7cmConfig.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/mmi7cm/ov16b10/mmi7cmConfig.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/mmi7cm/ov16b10/mmi7cmConfig.xml \
+    vendor/huawei/potter/proprietary/odm/etc/camera/mmi7cm/hi1333/mmi7cmConfig.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/mmi7cm/hi1333/mmi7cmConfig.xml \
+    vendor/huawei/potter/proprietary/odm/etc/camera/mmi7cm/imx258/mmi7cmConfig.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/mmi7cm/imx258/mmi7cmConfig.xml \
+    vendor/huawei/potter/proprietary/odm/etc/camera/mmi7cm/imx576/mmi7cmConfig.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/mmi7cm/imx576/mmi7cmConfig.xml \
+    vendor/huawei/potter/proprietary/odm/etc/camera/mmi7cm/imx582/mmi7cmConfig.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/mmi7cm/imx582/mmi7cmConfig.xml \
+    vendor/huawei/potter/proprietary/odm/etc/camera/mmi7cm/ov13855/mmi7cmConfig.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/mmi7cm/ov13855/mmi7cmConfig.xml \
+    vendor/huawei/potter/proprietary/odm/etc/camera/mmi7cm/s5k3l6/mmi7cmConfig.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/mmi7cm/s5k3l6/mmi7cmConfig.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/monitor_config.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/monitor_config.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/multidenoise/default/multiframe.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/multidenoise/default/multiframe.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/multidenoise/device.config:$(TARGET_COPY_OUT_ODM)/etc/camera/multidenoise/device.config \
     vendor/huawei/potter/proprietary/odm/etc/camera/multidenoise/hi1333/multiframe.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/multidenoise/hi1333/multiframe.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/multidenoise/hi846_front/multiframe.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/multidenoise/hi846_front/multiframe.xml \
@@ -375,11 +314,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/potter/proprietary/odm/etc/camera/multidenoise/ov13855/multiframe.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/multidenoise/ov13855/multiframe.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/multidenoise/ov16885_front/multiframe.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/multidenoise/ov16885_front/multiframe.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/multidenoise/s5k3l6/multiframe.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/multidenoise/s5k3l6/multiframe.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/multidenoise/s5k3p8/multiframe.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/multidenoise/s5k3p8/multiframe.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/multidenoise/s5k4h7_front/multiframe.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/multidenoise/s5k4h7_front/multiframe.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/multidenoise/s5kgd1sp_front/multiframe.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/multidenoise/s5kgd1sp_front/multiframe.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/nicefood/device.config:$(TARGET_COPY_OUT_ODM)/etc/camera/nicefood/device.config \
-    vendor/huawei/potter/proprietary/odm/etc/camera/nicefood/rear/niceFood.dat:$(TARGET_COPY_OUT_ODM)/etc/camera/nicefood/rear/niceFood.dat \
     vendor/huawei/potter/proprietary/odm/etc/camera/offlinealgocfg.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/offlinealgocfg.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/portrait/portraitModeConfig.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/portrait/portraitModeConfig.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/powermonitor/config.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/powermonitor/config.xml \
@@ -393,38 +329,36 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/potter/proprietary/odm/etc/camera/quadra/ov16885_front/config.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/quadra/ov16885_front/config.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/quadra/s5k3p8_front/config.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/quadra/s5k3p8_front/config.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/quadra/s5kgd1sp_front/config.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/quadra/s5kgd1sp_front/config.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/smartae/default/SmartAE.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/default/SmartAE.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/smartae/device.config:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/device.config \
     vendor/huawei/potter/proprietary/odm/etc/camera/smartae/hi1333/SmartAE.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/hi1333/SmartAE.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/smartae/hi1333/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/hi1333/TornadoI.ini \
     vendor/huawei/potter/proprietary/odm/etc/camera/smartae/hi846_front/SmartAE.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/hi846_front/SmartAE.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/smartae/hi846_front/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/hi846_front/TornadoI.ini \
     vendor/huawei/potter/proprietary/odm/etc/camera/smartae/imx258/SmartAE.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/imx258/SmartAE.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/smartae/imx258/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/imx258/TornadoI.ini \
-    vendor/huawei/potter/proprietary/odm/etc/camera/smartae/imx371/SmartAE.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/imx371/SmartAE.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/smartae/imx371/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/imx371/TornadoI.ini \
+    vendor/huawei/potter/proprietary/odm/etc/camera/smartae/imx371_front/SmartAE.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/imx371_front/SmartAE.xml \
     vendor/huawei/potter/proprietary/odm/etc/camera/smartae/imx576/SmartAE.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/imx576/SmartAE.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/smartae/imx576/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/imx576/TornadoI.ini \
     vendor/huawei/potter/proprietary/odm/etc/camera/smartae/imx576_front/SmartAE.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/imx576_front/SmartAE.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/smartae/imx576_front/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/imx576_front/TornadoI.ini \
     vendor/huawei/potter/proprietary/odm/etc/camera/smartae/imx582/SmartAE.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/imx582/SmartAE.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/smartae/imx582/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/imx582/TornadoI.ini \
     vendor/huawei/potter/proprietary/odm/etc/camera/smartae/imx616_front/SmartAE.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/imx616_front/SmartAE.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/smartae/imx616_front/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/imx616_front/TornadoI.ini \
     vendor/huawei/potter/proprietary/odm/etc/camera/smartae/ov13855/SmartAE.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/ov13855/SmartAE.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/smartae/ov13855/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/ov13855/TornadoI.ini \
     vendor/huawei/potter/proprietary/odm/etc/camera/smartae/ov16885_front/SmartAE.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/ov16885_front/SmartAE.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/smartae/ov16885_front/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/ov16885_front/TornadoI.ini \
     vendor/huawei/potter/proprietary/odm/etc/camera/smartae/s5k3l6/SmartAE.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/s5k3l6/SmartAE.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/smartae/s5k3l6/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/s5k3l6/TornadoI.ini \
     vendor/huawei/potter/proprietary/odm/etc/camera/smartae/s5k3p8_front/SmartAE.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/s5k3p8_front/SmartAE.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/smartae/s5k3p8_front/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/s5k3p8_front/TornadoI.ini \
     vendor/huawei/potter/proprietary/odm/etc/camera/smartae/s5k4h7_front/SmartAE.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/s5k4h7_front/SmartAE.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/smartae/s5k4h7_front/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/s5k4h7_front/TornadoI.ini \
     vendor/huawei/potter/proprietary/odm/etc/camera/smartae/s5kgd1sp_front/SmartAE.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/s5kgd1sp_front/SmartAE.xml \
-    vendor/huawei/potter/proprietary/odm/etc/camera/smartae/s5kgd1sp_front/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/s5kgd1sp_front/TornadoI.ini \
-    vendor/huawei/potter/proprietary/odm/etc/camera/tornado/default/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/tornado/default/TornadoI.ini \
     vendor/huawei/potter/proprietary/odm/etc/camera/tornado/device.config:$(TARGET_COPY_OUT_ODM)/etc/camera/tornado/device.config \
+    vendor/huawei/potter/proprietary/odm/etc/camera/tornado/hi1333/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/tornado/hi1333/TornadoI.ini \
+    vendor/huawei/potter/proprietary/odm/etc/camera/tornado/hi846_front/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/tornado/hi846_front/TornadoI.ini \
+    vendor/huawei/potter/proprietary/odm/etc/camera/tornado/imx258/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/tornado/imx258/TornadoI.ini \
+    vendor/huawei/potter/proprietary/odm/etc/camera/tornado/imx371_front/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/tornado/imx371_front/TornadoI.ini \
+    vendor/huawei/potter/proprietary/odm/etc/camera/tornado/imx576/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/tornado/imx576/TornadoI.ini \
+    vendor/huawei/potter/proprietary/odm/etc/camera/tornado/imx576_front/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/tornado/imx576_front/TornadoI.ini \
+    vendor/huawei/potter/proprietary/odm/etc/camera/tornado/imx582/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/tornado/imx582/TornadoI.ini \
+    vendor/huawei/potter/proprietary/odm/etc/camera/tornado/imx616_front/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/tornado/imx616_front/TornadoI.ini \
+    vendor/huawei/potter/proprietary/odm/etc/camera/tornado/ov13855/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/tornado/ov13855/TornadoI.ini \
+    vendor/huawei/potter/proprietary/odm/etc/camera/tornado/ov16885_front/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/tornado/ov16885_front/TornadoI.ini \
+    vendor/huawei/potter/proprietary/odm/etc/camera/tornado/s5k3l6/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/tornado/s5k3l6/TornadoI.ini \
+    vendor/huawei/potter/proprietary/odm/etc/camera/tornado/s5k3p8_front/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/tornado/s5k3p8_front/TornadoI.ini \
+    vendor/huawei/potter/proprietary/odm/etc/camera/tornado/s5k4h7_front/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/tornado/s5k4h7_front/TornadoI.ini \
+    vendor/huawei/potter/proprietary/odm/etc/camera/tornado/s5kgd1sp_front/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/tornado/s5kgd1sp_front/TornadoI.ini \
     vendor/huawei/potter/proprietary/odm/etc/firmware/libpn553_fw.so:$(TARGET_COPY_OUT_ODM)/etc/firmware/libpn553_fw.so \
     vendor/huawei/potter/proprietary/odm/etc/firmware/ts/POTR690300_AFT_param.csv:$(TARGET_COPY_OUT_ODM)/etc/firmware/ts/POTR690300_AFT_param.csv \
     vendor/huawei/potter/proprietary/odm/etc/firmware/ts/POTR690300_caplimit_default.csv:$(TARGET_COPY_OUT_ODM)/etc/firmware/ts/POTR690300_caplimit_default.csv \
@@ -465,7 +399,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     hwcam.imx258.pd \
-    hwcam.imx498.pd \
     hwcam.kirin710.POT.p.GC2375POT \
     hwcam.kirin710.POT.p.HI1333POT \
     hwcam.kirin710.POT.p.HI259POT \
@@ -484,7 +417,7 @@ PRODUCT_PACKAGES += \
     hwcam.kirin710.POT.p.S5K4H7POT \
     hwcam.kirin710.POT.p.S5KGD1SPPOT \
     hwcam.kirin710.POT.s.GC2375POT \
-    hwcam.kirin710.POT.s.S5K3P8ANE \
+    hwcam.kirin710.POT.s.S5K3P8POT \
     hwcam.kirin710.m.POT \
     hwcam.ov13855.pd \
     hwcam.s5k3l6.pd \
@@ -497,7 +430,6 @@ PRODUCT_PACKAGES += \
     libfcell \
     libmegface_meglive \
     libmmcamera_ovpdaf_type3_2017a \
-    libmmi_depth \
     libmpbase \
     libmrc_cg_beauty \
     libremosaic_wrapper \
